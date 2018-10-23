@@ -5,7 +5,7 @@ Docker Image at the Hub
 
 Fetch the public image with
 
-    docker pull herchu/freeling4-es:pub
+    docker pull jpizarrom/freeling:dev-4.1
 
 
 Test it with
