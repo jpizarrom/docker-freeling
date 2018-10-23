@@ -10,12 +10,12 @@ Fetch the public image with
 
 Test it with
 
-    echo "Mi casa es bonita." | docker run -i herchu/freeling4-es:pub /usr/bin/analyze -f es.cfg
+    echo "Mi casa es bonita." | docker run -i jpizarrom/freeling:dev-4.1 /usr/bin/analyze -f es.cfg
 
 
 There is also a Python API. Test it with
 
-    echo "Mi casa es bonita." | docker run -i herchu/freeling4-pyes:v0 python3 /home/APIs/python/sample.py
+    echo "Mi casa es bonita." | docker run -i jpizarrom/freeling:dev-4.1 python3 /home/APIs/python3/sample.py
 
 
 
@@ -44,6 +44,11 @@ Debian Package
 
 The Freeling Debian packages is:
 
-    https://github.com/TALP-UPC/FreeLing/releases/download/4.0/freeling-4.0-jessie-amd64.deb
+    https://github.com/TALP-UPC/FreeLing/releases/download/4.1/freeling-4.1-stretch-amd64.deb freeling4.deb
+
+
+Original code
+------------
+Based on https://github.com/hfoffani/docker-freeling
 
 

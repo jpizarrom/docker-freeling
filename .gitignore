@@ -1,6 +1,6 @@
 *.deb
-Dockerfile*
+#Dockerfile*
 *.swp
 build-*
 squash-??
-APIs/*
+#APIs/*
