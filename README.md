@@ -8,9 +8,13 @@ Fetch the public image with
     docker pull jpizarrom/freeling:dev-4.1
 
 
-Test it with
+Test it with a string
 
     echo "Mi casa es bonita." | docker run -i jpizarrom/freeling:dev-4.1 /usr/bin/analyze -f es.cfg
+
+Test it with a file
+
+    cat file.txt | docker run -i herchu/freeling4-es:v0 /usr/bin/analyze -f es.cfg
 
 
 There is also a Python API. Test it with
